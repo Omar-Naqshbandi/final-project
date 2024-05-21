@@ -1,0 +1,59 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+#div1 {
+    display: flex;
+    margin: 100px;
+    padding: 170px;
+    border: 10px solid;
+    border-radius: 1px;
+    width: 300px;
+    background-image: url(https://m.atcdn.co.uk/ect/media/%7Bresize%7D/0c5192b3cabd49258b5a823037faa883.jpg);
+    background-size: cover;
+
+}
+
+#div2 {
+    display: flex;
+    margin: 100px;
+    margin-left: 800px;
+    padding: 170px;
+    border: 10px solid;
+    border-radius: 1px;
+    width: 270px;
+    background-image: url(https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/McLaren-P1_0.jpg);
+    background-size: cover;
+}
+
+#div { 
+    display: flex;
+    margin-right: 250px;
+    padding: 170px;
+    border: 10px solid;
+    border-radius: 1px;
+    width: 290px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDEgLIkZQWqj5OqPtmbxnDcIPobpMNIJCHcg&s);
+    background-size: cover;
+
+}
